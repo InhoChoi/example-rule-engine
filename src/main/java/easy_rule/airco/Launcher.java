@@ -10,6 +10,9 @@ import org.jeasy.rules.core.RuleBuilder;
 import static easy_rule.airco.DecreaseTemperatureAction.decreaseTemperature;
 import static easy_rule.airco.HighTemperatureCondition.itIsHot;
 
+/**
+ * Condition Interface와 Action Interface를 이용하는 경우
+ */
 public class Launcher {
 
     public static void main(String[] args) {

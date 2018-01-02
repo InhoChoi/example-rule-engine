@@ -28,6 +28,9 @@ import org.jeasy.rules.api.Rules;
 import org.jeasy.rules.api.RulesEngine;
 import org.jeasy.rules.core.DefaultRulesEngine;
 
+/**
+ * Hello World
+ */
 public class Launcher {
 
     public static void main(String[] args) {

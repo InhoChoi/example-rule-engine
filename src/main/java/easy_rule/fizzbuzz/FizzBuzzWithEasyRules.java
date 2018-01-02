@@ -29,6 +29,9 @@ import org.jeasy.rules.api.RulesEngine;
 import org.jeasy.rules.core.DefaultRulesEngine;
 import org.jeasy.rules.core.RulesEngineParameters;
 
+/**
+ * Compose Rule를 이용하여 여러가지 Rule를 적용한 예제
+ */
 public class FizzBuzzWithEasyRules {
     public static void main(String[] args) {
         // create rules engine

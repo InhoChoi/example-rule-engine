@@ -33,6 +33,9 @@ import org.jeasy.rules.mvel.MVELRuleFactory;
 import java.io.File;
 import java.io.FileNotFoundException;
 
+/**
+ * Yml를 이용한 Rule 및 MVEL를 이용한Rule
+ */
 public class Launcher {
 
     public static void main(String[] args) throws FileNotFoundException {
