@@ -14,7 +14,8 @@ public class WeatherRule {
     }
     
     @Action
-    public void takeAnUmbrella() {
+    public void takeAnUmbrella(@Fact("rain") boolean rain) {
+        System.out.println(rain);
         System.out.println("It rains, take an umbrella!");
     }
 }
