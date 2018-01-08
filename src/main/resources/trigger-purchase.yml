@@ -1,0 +1,6 @@
+name: "triggering purchase"
+description: "triggering purchase"
+priority: 1
+condition: "event.getName() == \"purchase\""
+actions:
+  - "sender.send(event.getName())"
